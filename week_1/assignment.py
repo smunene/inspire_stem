@@ -11,6 +11,9 @@ r_sq = (r ** 2)
 v = (pi * r_sq * h)
 sa = ((2*pi*r*h) + (2*pi*r_sq))
 
+print("The volume of the cylinder is ", v)
+print("The surface area of the cylinder is ", sa)
+
 # sphere
 pi = 3.142
 r = float(input("Enter the radius"))
@@ -20,3 +23,6 @@ a = (4 / 3)
 
 v = a * pi * r_cd
 sa = (4 * pi * r_sq)
+
+print("The volume of the sphere is", v)
+print("The surface area of the sphere is", sa)
