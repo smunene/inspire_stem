@@ -11,7 +11,7 @@ d = (b**2) - 4 * a * c
 d_sqrt = (math.sqrt (d))
 
 x_1 = (-b + d_sqrt) / 2 * a
-x_2 = (+b - d_sqrt) / 2 * a
+x_2 = (-b - d_sqrt) / 2 * a
 
 print("The solution of the quadratic equation is : ", x_1)
 print("The solution of the quadratic equation is : ", x_2)
