@@ -1,21 +1,17 @@
-# This is a program to show factorials
-# Date : 22/02/2024
-# Name : Wachira Stanslaus
+# This is a program to get factorials
+# Date : 26/02/2024
+# Name : Stanslaus
 
-import math
+max_value = int(input("Enter the maximum number :"))
+factorial_numbs = 1
+for x in range (1,max_value + 1):
+    factorial_numbs = factorial_numbs * x
+    print(factorial_numbs)
 
-n = int(input("Enter the number whose factorial u want to find : "))
+#printing even numbers between 0 and 20
+for i in range (0,20,2):
+    print(i)
 
-print ("The factorial is :", math.factorial (n)) # This is a built in function in python for finding factorial of number n
-
-# Using for loop
-
-factorial = int(input("Enter the number whose factorial u want to find : "))
-n = 1
-
-if factorial >=1:
-    for i in range (1, n+2):
-
-        factorial_ans = factorial * i
-
-print ("The factorial is :", factorial_ans)      
+#printing odd numbers between 0 and 20
+for i in range (1,20,2):
+    print(i)
