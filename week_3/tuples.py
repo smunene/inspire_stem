@@ -4,3 +4,6 @@ print(cities)
 
 for city in cities:
     print(city)
+
+hobbies = ("sleeping","watching","reading","dancing","gaming")    
+print(hobbies)
