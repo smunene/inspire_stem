@@ -1,0 +1,29 @@
+section{
+    background-color: blue;
+    color: red;
+}
+img{
+    width: 10cm;
+    height: 10cm;
+}
+
+.header-1{
+    color: brown;
+}
+.ball{
+    background-color: purple;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%
+}
+#bouncing{
+    position: absolute;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
